@@ -13,10 +13,41 @@ import styles from "../App.css";
 
 
 const INITIAL_CONTENT = {
-  "entityMap": {},
+  "entityMap": {
+    "0": {
+      "type": "image",
+      "mutability": "IMMUTABLE",
+      "data": {
+        "src": "http://www.renatadavies.com.br/wp-content/uploads/2012/04/ruiva-ruiva.jpg",
+        "featured": "big"
+      }
+    }
+  },
   "blocks": [
     {
       "key": "ag6qs",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": []
+    },
+    {
+      "key": "1srai",
+      "text": "🍺",
+      "type": "atomic",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [
+        {
+          "offset": 0,
+          "length": 1,
+          "key": 0
+        }
+      ]
+    },
+    {
+      "key": "b3d25",
       "text": "Hello World!",
       "type": "unstyled",
       "depth": 0,
